@@ -19,8 +19,10 @@
 #include "core/View.h"
 #include "core/View_p.h"
 #include "core/Utils_p.h"
-#include "core/Controller_p.h"
+
+// #include "core/Controller_p.h"
 #include "core/Platform_p.h"
+
 #include "core/Logging_p.h"
 #include "core/ScopedValueRollback_p.h"
 #include "core/nlohmann_helpers_p.h"

@@ -747,3 +747,7 @@ if(KDDockWidgets_DEVELOPER_MODE AND KDDW_FRONTEND_QT)
         link_to_nlohman(kddockwidgets_linter)
     endif()
 endif()
+
+if(KDDockWidgets_RUST_LAYOUTING_ENGINE)
+    add_subdirectory(core/layouting/rust)
+endif()
