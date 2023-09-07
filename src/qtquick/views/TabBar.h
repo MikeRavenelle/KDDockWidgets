@@ -121,7 +121,7 @@ public:
     int count() const;
     int rowCount(const QModelIndex &parent) const override;
     QVariant data(const QModelIndex &index, int role) const override;
-    Core::DockWidget *dockWidgetAt(int index) const;
+    Q_INVOKABLE Core::DockWidget *dockWidgetAt(int index) const;
     Core::DockWidget *currentDockWidget() const;
     void setCurrentDockWidget(Core::DockWidget *);
     void remove(Core::DockWidget *);
